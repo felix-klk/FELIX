@@ -21,4 +21,4 @@ hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.c
 
 [Script]
 # ======= 瀑布流|搜索|播放页|短视频|贴片 广告 ======= #
-Youtube=type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/(browse|search|next|player|reel\/reel_watch_sequence|guide,requires-body=1,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
+youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/(browse|search|next|player|reel\/reel_watch_sequence|guide,requires-body=1,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
