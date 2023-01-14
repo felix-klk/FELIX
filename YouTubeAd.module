@@ -1,9 +1,6 @@
 #!name=Youtube Block AD
 #!desc=仅用于视频广告（by @DivineEngine, @app2smile, @Maasea）
 
-[general]
-udp_drop_list=443
-
 [URL Rewrite]
 # ======= 视频广告请求 ======= #
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
