@@ -1,3 +1,9 @@
+#!name=哔哩哔哩去广告
+#!desc=哔哩哔哩去广告
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/biliad.png
+#!homepage=https://github.com/deezertidal
+#!author=ddgksf2013
+
 [MITM]
 hostname = %APPEND% app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net
 
