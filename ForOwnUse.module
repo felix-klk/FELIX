@@ -46,8 +46,6 @@ biliad=type=http-response,pattern=https:\/\/api\.xiuxiu\.meitu\.com\/v1,requires
 biliad=type=http-response,pattern=https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date),requires-body=1,script-path=https://github.com/ddgksf2013/dev/raw/main/ClarityProCrack.js
 # ✅ Picsart
 biliad=type=http-response,pattern=https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate,requires-body=1,script-path=https://github.com/ddgksf2013/dev/raw/main/PicsartProCrack.js
-# ✅ 搜图神器
-biliad=type=http-response,pattern=http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token - response-body vipType": 0 response-body vipType": 1024
 # ✅ 黄油相机
 biliad=type=http-response,pattern=https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$),requires-body=1,script-path=https://github.com/ddgksf2013/dev/raw/main/BybutterProCrack.js
 
@@ -66,4 +64,4 @@ biliad=type=http-response,pattern=https?:\/\/appraven\.net\/AppRaven\/(app|socia
 biliad=type=http-response,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,script-path=https://github.com/ddgksf2013/dev/raw/main/CamscannerProCrack.js
 
 [mitm] 
-hostname = %APPEND% *faceu*, commerce-api.faceu.mobi, api4.bybutter.com, wallpaper.soutushenqi.com, api.tipsoon.com, *xiaozujian, lchttpapi.xczim.com, app.yiyan.art, *kuwo*, *lrts*, gateway.caixin.com, notability.com, pan.baidu.com, spclient.wg.spotify.com, ticktick.com, ap*.intsig.net, ipadcms.caixin.com, server.yoyiapp.com, *.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net
+hostname = %APPEND% commerce-api.faceu.mobi, api4.bybutter.com, wallpaper.soutushenqi.com, api.tipsoon.com, *xiaozujian, lchttpapi.xczim.com, app.yiyan.art, *kuwo*, *lrts*, gateway.caixin.com, notability.com, pan.baidu.com, spclient.wg.spotify.com, ticktick.com, ap*.intsig.net, ipadcms.caixin.com, server.yoyiapp.com, *.aoscdn.com, *.xiuxiu.meitu.com, claritywallpaper.com, api.meiease.cn, restore-access.indream.app, appraven.net
