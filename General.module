@@ -1,3 +1,6 @@
+#!name=神机重定向
+#!desc=DivineEngine
+
 [MITM]
 hostname = %APPEND% www.google.cn,www.firefox.com.cn,api.*.abema-tv.com,app.biliintl.com,passport.biliintl.com
 
