@@ -8,8 +8,7 @@
 # > https://github.com/ddgksf2013/dev/raw/master/ForOwnUse.conf
 ##############################################
 
-
-[rewrite_local]
+[Script]
 ^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription,requires-body=1,script-path=https://github.com/ddgksf2013/dev/raw/main/XingTuProCrack.js
 
 # ✅ Spotify
