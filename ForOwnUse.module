@@ -9,7 +9,7 @@
 
 
 [Script]
-biliad=type=http-response,pattern=https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription,requires-body=1,script-path=https://github.com/ddgksf2013/dev/raw/main/XingTuProCrack.js
+biliad=type=http-response,pattern=https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xt.js
 
 # ✅ Spotify
 biliad=type=http-response,pattern=https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
