@@ -1,9 +1,6 @@
 #!name=Youtube Block AD
 #!desc=仅用于视频广告（by @DivineEngine, @app2smile, @Maasea）
 
-[MITM]
-hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
-
 [general]
 udp_drop_list=443
 
@@ -19,3 +16,6 @@ udp_drop_list=443
 [Script]
 # ======= 瀑布流|搜索|播放页|短视频|贴片 广告 ======= #
 youtube = type=http-response,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/(browse|search|next|player|reel\/reel_watch_sequence|guide),max-size=131072,requires-body=true,binary-mode=true,script-update-interval=0,enable=true
+
+[MITM]
+hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
