@@ -1,8 +1,6 @@
+#!url=https://raw.githubusercontent.com/felix-klk/FELIX/master/YouTubeAd.module
 #!name=Youtube Block AD
 #!desc=仅用于视频广告（by @DivineEngine, @app2smile, @Maasea）
-
-[general]
-udp_drop_list=443
 
 [MITM]
 hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
@@ -17,7 +15,6 @@ hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.c
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject-200
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject-200
 
-[Script]
 # ======= 瀑布流|搜索|播放页|短视频|贴片 广告 ======= #
 [Script]
 
