@@ -1,14 +1,11 @@
 #!name=Youtube Block AD
 #!desc=仅用于视频广告（by @DivineEngine, @app2smile, @Maasea）
 
-#[Rule]
-#AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
-
-#[general]
-#udp_drop_list=443
-
 [MITM]
 hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+
+[general]
+udp_drop_list=443
 
 [URL Rewrite]
 # ======= 视频广告请求 ======= #
