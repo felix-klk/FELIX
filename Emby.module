@@ -1,0 +1,10 @@
+#!name=EMBY
+#!desc=Emby解锁播放权限
+#!icon=https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Color/EMBY.png
+
+
+[MITM]
+hostname = mb3admin.com
+
+[Script]
+emby=type=http-response,pattern=^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey),requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
