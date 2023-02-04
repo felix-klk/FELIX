@@ -4,7 +4,7 @@
 
 
 [MITM]
-hostname = %APPEND% *.netflix.*, *.bdys.*,cupfox.app,*.cokemv.*,*pornhub.com,*.lezhutv.*,*.bimi.*,18comic.org,555y.*.com,*.gimytv.*,*.tkznp.*,*.czspp.*,*.ikandy.*,*.libvio.*
+hostname = %APPEND% *.netflix.*, *.bdys.*,cupfox.app,*.cokemv.*,*pornhub.com,*.lezhutv.*,*.bimi.*,18comic.org,*.5y.*,*.gimytv.*,*.tkznp.*,*.czspp.*,*.ikandy.*,*.libvio.*
 
 
 [URL Rewrite]
