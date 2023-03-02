@@ -111,6 +111,7 @@ DOMAIN-SUFFIX,pololine.ml
 
 # > 流媒体MisakaF服务器
 DOMAIN-SUFFIX,misakaf.org
+DOMAIN,direct.cdn.misakaf.org
 
 # > 流媒体GfwEmby服务器
 DOMAIN-SUFFIX,gfwemby.org
