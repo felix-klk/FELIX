@@ -1,8 +1,6 @@
 # > 自己的分流
-# host-keyword, felixemby,DIRECT
-host-suffix , emby.wtf, PROXY
-host-suffix , cupid.iqiyi.com, DIRECT
-
+DOMAIN-SUFFIX,,emby.wtf,PROXY
+DOMAIN-SUFFIX,cupid.iqiyi.com,DIRECT
 DOMAIN-KEYWORD,speedtest,DIRECT
 DOMAIN-KEYWORD,felixemby,DIRECT
 DOMAIN-KEYWORD,paypal,美国节点
@@ -16,4 +14,4 @@ DOMAIN-SUFFIX,ikandy.fun,DIRECT
 DOMAIN-SUFFIX,bing.com,全球加速
 DOMAIN-SUFFIX,emby.wtf,PROXY
 DOMAIN-SUFFIX,misakaf.org,PROXY
-DOMAIN,cdn.misakaf.org,PROXY
+DOMAIN-SUFFIX,cdn.misakaf.org,PROXY
