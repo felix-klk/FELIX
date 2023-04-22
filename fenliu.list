@@ -1,5 +1,5 @@
 # > 自己的分流
-DOMAIN-SUFFIX,,emby.wtf,PROXY
+DOMAIN-SUFFIX,emby.wtf,PROXY
 DOMAIN-SUFFIX,cupid.iqiyi.com,DIRECT
 DOMAIN-KEYWORD,speedtest,DIRECT
 DOMAIN-KEYWORD,felixemby,DIRECT
