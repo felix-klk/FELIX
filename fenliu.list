@@ -1,5 +1,5 @@
 # > 自己的分流
-host-keyword, felixemby,DIRECT
+# host-keyword, felixemby,DIRECT
 host-suffix , emby.wtf, PROXY
 host-suffix , cupid.iqiyi.com, DIRECT
 
