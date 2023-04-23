@@ -1,5 +1,4 @@
 # > 自己的分流
-DOMAIN-SUFFIX,emby.wtf,PROXY
 DOMAIN-SUFFIX,cupid.iqiyi.com,DIRECT
 DOMAIN-KEYWORD,speedtest,DIRECT
 DOMAIN-KEYWORD,felixemby,DIRECT
@@ -13,6 +12,8 @@ DOMAIN-KEYWORD,meijutt,DIRECT
 DOMAIN-KEYWORD,ikandy,DIRECT
 DOMAIN-SUFFIX,ikandy.fun,DIRECT
 DOMAIN-SUFFIX,bing.com,全球加速
-DOMAIN-SUFFIX,emby.wtf,PROXY
-DOMAIN-SUFFIX,misakaf.org,PROXY
-DOMAIN-SUFFIX,cdn.misakaf.org,PROXY
+DOMAIN-SUFFIX,emby.wtf,全球加速
+DOMAIN-SUFFIX,misakaf.org,全球加速
+DOMAIN-SUFFIX,cdn.misakaf.org,全球加速
+DOMAIN-KEYWORD,openai,美国节点
+
