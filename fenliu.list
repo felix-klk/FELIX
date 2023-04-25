@@ -15,7 +15,9 @@ DOMAIN-SUFFIX,bing.com,全球加速
 DOMAIN-SUFFIX,emby.wtf,全球加速
 DOMAIN-SUFFIX,misakaf.org,全球加速
 DOMAIN-SUFFIX,cdn.misakaf.org,全球加速
-DOMAIN-KEYWORD,openai,美国节点 
+host-keyword, openai, 美国节点
+host-suffix , identrust.com, 美国节点
+host-suffix , auth0.com, 美国节点
 DOMAIN-KEYWORD,hddolby,DIRECT
 DOMAIN-KEYWORD,hdtime,DIRECT
 DOMAIN-KEYWORD,ptchina,DIRECT 
