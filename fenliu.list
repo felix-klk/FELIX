@@ -24,3 +24,4 @@ DOMAIN-KEYWORD,ptchina,DIRECT
 DOMAIN-KEYWORD,zmpt,DIRECT 
 ip-cidr, 2.2.2.2/24, direct
 ip-cidr, 192.168.60.253/24, direct
+DOMAIN-SUFFIX,alist.nn.ci,全球加速
