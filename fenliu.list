@@ -1,20 +1,18 @@
 #自己的分流
 DOMAIN-SUFFIX,cupid.iqiyi.com,DIRECT
 DOMAIN-SUFFIX,felixemby.top,DIRECT
-DOMAIN-KEYWORD,paypal,美国节点
 DOMAIN-KEYWORD,tubi,美国节点
 DOMAIN-KEYWORD,pluto,美国节点 
 DOMAIN-SUFFIX,speedtest.net,DIRECT
-DOMAIN-KEYWORD,novipnoad,DIRECT
 DOMAIN-SUFFIX,meijutt.tv,DIRECT 
 DOMAIN-SUFFIX,ikandy.fun,DIRECT
 DOMAIN-SUFFIX,bing.com,全球加速
 DOMAIN-SUFFIX,emby.wtf,全球加速
 DOMAIN-SUFFIX,misakaf.org,全球加速
 DOMAIN-SUFFIX,cdn.misakaf.org,全球加速
-host-keyword, openai, 美国节点
-host-suffix , identrust.com, 美国节点
-host-suffix , auth0.com, 美国节点
+host-keyword,openai,美国节点
+host-suffix,identrust.com,美国节点
+host-suffix,auth0.com,美国节点
 
 #PT
 DOMAIN-SUFFIX,cyanbug.net,DIRECT 
@@ -26,6 +24,11 @@ DOMAIN-SUFFIX,hddolby.com,DIRECT
 DOMAIN-SUFFIX,audiences.me,DIRECT 
 DOMAIN-SUFFIX,btschool.club,DIRECT 
 DOMAIN-SUFFIX,pt.0ff.cc,DIRECT 
+
+
+ip-cidr, 2.2.2.2/24, direct
+ip-cidr, 192.168.60.253/24, direct
+DOMAIN-SUFFIX,alist.nn.ci,全球加速
 
 # NAME: PayPal
 # DOMAIN-KEYWORD: 1
@@ -279,6 +282,3 @@ DOMAIN-SUFFIX,xoom.us,美国节点
 DOMAIN-SUFFIX,xoomcom.com,美国节点
 DOMAIN-KEYWORD,paypal,美国节点
 
-ip-cidr, 2.2.2.2/24, direct
-ip-cidr, 192.168.60.253/24, direct
-DOMAIN-SUFFIX,alist.nn.ci,全球加速
