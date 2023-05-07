@@ -26,8 +26,8 @@ DOMAIN-SUFFIX,btschool.club,DIRECT
 DOMAIN-SUFFIX,pt.0ff.cc,DIRECT 
 
 
-ip-cidr, 2.2.2.2/24, direct
-ip-cidr, 192.168.60.253/24, direct
+ip-cidr, 2.2.2.2/24,DIRECT
+ip-cidr, 192.168.60.253/24,DIRECT
 DOMAIN-SUFFIX,alist.nn.ci,全球加速
 
 # NAME: PayPal
