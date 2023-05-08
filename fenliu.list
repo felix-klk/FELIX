@@ -1,33 +1,33 @@
 #自己的分流
-DOMAIN-SUFFIX,cupid.iqiyi.com,DIRECT
-DOMAIN-SUFFIX,felixemby.top,DIRECT
-DOMAIN-KEYWORD,tubi,美国节点
-DOMAIN-KEYWORD,pluto,美国节点 
-DOMAIN-SUFFIX,speedtest.net,DIRECT
-DOMAIN-SUFFIX,meijutt.tv,DIRECT 
-DOMAIN-SUFFIX,ikandy.fun,DIRECT
-DOMAIN-SUFFIX,bing.com,全球加速
-DOMAIN-SUFFIX,emby.wtf,全球加速
-DOMAIN-SUFFIX,misakaf.org,全球加速
-DOMAIN-SUFFIX,cdn.misakaf.org,全球加速
-DOMAIN-KEYWORD,openai,美国节点
-DOMAIN-SUFFIX,identrust.com,美国节点
-DOMAIN-SUFFIX,auth0.com,美国节点
+HOST-SUFFIX,cupid.iqiyi.com,DIRECT
+HOST-SUFFIX,felixemby.top,DIRECT
+HOST-KEYWORD,tubi,美国节点
+HOST-KEYWORD,pluto,美国节点 
+HOST-SUFFIX,speedtest.net,DIRECT
+HOST-SUFFIX,meijutt.tv,DIRECT 
+HOST-SUFFIX,ikandy.fun,DIRECT
+HOST-SUFFIX,bing.com,全球加速
+HOST-SUFFIX,emby.wtf,全球加速
+HOST-SUFFIX,misakaf.org,全球加速
+HOST-SUFFIX,cdn.misakaf.org,全球加速
+HOST-KEYWORD,openai,美国节点
+HOST-SUFFIX,identrust.com,美国节点
+HOST-SUFFIX,auth0.com,美国节点
 
 #PT
-DOMAIN-SUFFIX,cyanbug.net,DIRECT 
-DOMAIN-SUFFIX,zmpt.cc,DIRECT 
-DOMAIN-SUFFIX,ptchina.org,DIRECT 
-DOMAIN-SUFFIX,gainbound.net,DIRECT 
-DOMAIN-SUFFIX,hdtime.org,DIRECT 
-DOMAIN-SUFFIX,hddolby.com,DIRECT 
-DOMAIN-SUFFIX,audiences.me,DIRECT 
-DOMAIN-SUFFIX,btschool.club,DIRECT 
-DOMAIN-SUFFIX,pt.0ff.cc,DIRECT 
+HOST-SUFFIX,cyanbug.net,DIRECT 
+HOST-SUFFIX,zmpt.cc,DIRECT 
+HOST-SUFFIX,ptchina.org,DIRECT 
+HOST-SUFFIX,gainbound.net,DIRECT 
+HOST-SUFFIX,hdtime.org,DIRECT 
+HOST-SUFFIX,hddolby.com,DIRECT 
+HOST-SUFFIX,audiences.me,DIRECT 
+HOST-SUFFIX,btschool.club,DIRECT 
+HOST-SUFFIX,pt.0ff.cc,DIRECT 
 
 IP-CIDR,2.2.2.2/24,DIRECT
 IP-CIDR,192.168.60.253/24,DIRECT
-DOMAIN-SUFFIX,alist.nn.ci,全球加速
+HOST-SUFFIX,alist.nn.ci,全球加速
 
 # NAME: PayPal
 HOST-SUFFIX,account-paypal.info,美国节点
