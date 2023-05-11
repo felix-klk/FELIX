@@ -19,10 +19,10 @@ HOST-SUFFIX,cyanbug.net,DIRECT
 HOST-SUFFIX,zmpt.cc,DIRECT 
 HOST-SUFFIX,ptchina.org,DIRECT 
 HOST-SUFFIX,gainbound.net,DIRECT 
-HOST-SUFFIX,hdtime.org,DIRECT 
-HOST-SUFFIX,hddolby.com,DIRECT 
-HOST-SUFFIX,audiences.me,DIRECT 
-HOST-SUFFIX,btschool.club,DIRECT 
+HOST-SUFFIX,hdtime.org,全球加速 
+HOST-SUFFIX,hddolby.com,全球加速 
+HOST-SUFFIX,audiences.me,全球加速 
+HOST-SUFFIX,btschool.club,全球加速 
 HOST-SUFFIX,pt.0ff.cc,DIRECT 
 
 IP-CIDR,2.2.2.2/24,DIRECT
