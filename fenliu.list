@@ -23,7 +23,8 @@ HOST-SUFFIX,hdtime.org,全球加速
 HOST-SUFFIX,hddolby.com,全球加速 
 HOST-SUFFIX,audiences.me,全球加速 
 HOST-SUFFIX,btschool.club,全球加速 
-HOST-SUFFIX,pt.0ff.cc,DIRECT 
+HOST-SUFFIX,pt.0ff.cc,全球加速 
+HOST-SUFFIX,m-team.cc,全球加速
 
 IP-CIDR,2.2.2.2/24,DIRECT
 IP-CIDR,192.168.60.253/24,DIRECT
